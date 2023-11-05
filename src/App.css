@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+/* YourComponent.css or global CSS file */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .btn-group {
+    margin-bottom: 4px;
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    text-align: center; /* Center-align buttons */
+  }
+  
+  .plot-container {
+    justify-content: center;
+    width: 400px; /* Full width for the plot */
+    height: 400px; /* Adjust the height as needed for mobile view */
+  }
+}
+

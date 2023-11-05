@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Stock from './Stock.js';
+import Navbar from './Navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <Stock></Stock>
+      <b>This API is give me only access 5 times in 1 minute , If page is stucted then wait 1 minute and refresh this page , ThankYou</b>
     </div>
   );
 }
